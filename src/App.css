@@ -1,0 +1,114 @@
+body{
+  background: linear-gradient(to right, #25383C, #333);
+}
+.wrapper{
+
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 100%;
+  background: #2c3e50;
+
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 6vh auto;
+
+
+}
+
+.main-area{
+  height: 90vh;
+  background:#0d1318;
+
+  color:white;
+}
+
+.main-area h1{
+  margin:30px 35vw;
+  color: #fff;
+  opacity:0.9;
+
+}
+
+.main-area span{
+
+
+}
+.wb{
+margin-top: 10px;
+margin-left: 5vw
+
+
+}
+form{margin-top: 20vh}
+
+button{
+  border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f16051;
+    color: #fff;
+    font-weight: 100;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-left: 5vw
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #0d1318;
+  border-bottom: 1px solid #f16051;
+  -webkit-text-fill-color: #f3f3f3;
+  -webkit-box-shadow: 0 0 0px 1000px #0d1318 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+@media screen and (max-width:900px){
+
+
+  button{margin-left:35vw;}
+  input[type="text"]{  width: 50%;margin-left:35vw}
+  .wb{
+  margin-top: 40px;
+  margin-left: 35vw
+
+
+  }
+
+}
+@media screen and (max-width:400px){
+button{margin-left:28vw;}
+.wb{
+margin-top: 40px;
+margin-left: 28vw
+
+
+}
+
+
+
+}
